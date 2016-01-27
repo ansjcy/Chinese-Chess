@@ -1,0 +1,692 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>640</width>
+    <height>685</height>
+   </rect>
+  </property>
+  <property name="minimumSize">
+   <size>
+    <width>640</width>
+    <height>685</height>
+   </size>
+  </property>
+  <property name="maximumSize">
+   <size>
+    <width>640</width>
+    <height>685</height>
+   </size>
+  </property>
+  <property name="mouseTracking">
+   <bool>false</bool>
+  </property>
+  <property name="windowTitle">
+   <string>Chess</string>
+  </property>
+  <widget class="QWidget" name="centralWidget">
+   <widget class="QLabel" name="ChessBoard">
+    <property name="geometry">
+     <rect>
+      <x>0</x>
+      <y>0</y>
+      <width>640</width>
+      <height>640</height>
+     </rect>
+    </property>
+    <property name="mouseTracking">
+     <bool>false</bool>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="pixmap">
+     <pixmap resource="../../pic/res.qrc">:/res/ChessBoard640.jpg</pixmap>
+    </property>
+   </widget>
+   <widget class="QLabel" name="BlackGen">
+    <property name="geometry">
+     <rect>
+      <x>300</x>
+      <y>0</y>
+      <width>49</width>
+      <height>49</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="pixmap">
+     <pixmap resource="../../pic/res.qrc">:/res/BlackGen.png</pixmap>
+    </property>
+   </widget>
+   <widget class="QLabel" name="BlackHorse">
+    <property name="geometry">
+     <rect>
+      <x>100</x>
+      <y>0</y>
+      <width>49</width>
+      <height>49</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="pixmap">
+     <pixmap resource="../../pic/res.qrc">:/res/BlackHorse.png</pixmap>
+    </property>
+   </widget>
+   <widget class="QLabel" name="BlackServant">
+    <property name="geometry">
+     <rect>
+      <x>230</x>
+      <y>0</y>
+      <width>49</width>
+      <height>49</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="pixmap">
+     <pixmap resource="../../pic/res.qrc">:/res/BlackServant.png</pixmap>
+    </property>
+   </widget>
+   <widget class="QLabel" name="BlackAdvisor">
+    <property name="geometry">
+     <rect>
+      <x>160</x>
+      <y>0</y>
+      <width>49</width>
+      <height>49</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="pixmap">
+     <pixmap resource="../../pic/res.qrc">:/res/BlackAdvisor.png</pixmap>
+    </property>
+   </widget>
+   <widget class="QLabel" name="BlackCar">
+    <property name="geometry">
+     <rect>
+      <x>40</x>
+      <y>0</y>
+      <width>49</width>
+      <height>49</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="pixmap">
+     <pixmap resource="../../pic/res.qrc">:/res/BlackCar.png</pixmap>
+    </property>
+   </widget>
+   <widget class="QLabel" name="BlackCannon">
+    <property name="geometry">
+     <rect>
+      <x>100</x>
+      <y>130</y>
+      <width>49</width>
+      <height>49</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="pixmap">
+     <pixmap resource="../../pic/res.qrc">:/res/BlackCannon.png</pixmap>
+    </property>
+   </widget>
+   <widget class="QLabel" name="BlackSoldier">
+    <property name="geometry">
+     <rect>
+      <x>170</x>
+      <y>200</y>
+      <width>49</width>
+      <height>49</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="pixmap">
+     <pixmap resource="../../pic/res.qrc">:/res/BlackSodier.png</pixmap>
+    </property>
+   </widget>
+   <widget class="QLabel" name="RedSoldier">
+    <property name="geometry">
+     <rect>
+      <x>170</x>
+      <y>390</y>
+      <width>49</width>
+      <height>49</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="pixmap">
+     <pixmap resource="../../pic/res.qrc">:/res/RedSodier.png</pixmap>
+    </property>
+   </widget>
+   <widget class="QLabel" name="RedAdvisor">
+    <property name="geometry">
+     <rect>
+      <x>170</x>
+      <y>580</y>
+      <width>49</width>
+      <height>49</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="pixmap">
+     <pixmap resource="../../pic/res.qrc">:/res/RedAdvisor.png</pixmap>
+    </property>
+   </widget>
+   <widget class="QLabel" name="RedCannon">
+    <property name="geometry">
+     <rect>
+      <x>100</x>
+      <y>460</y>
+      <width>49</width>
+      <height>49</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="pixmap">
+     <pixmap resource="../../pic/res.qrc">:/res/RedCannon.png</pixmap>
+    </property>
+   </widget>
+   <widget class="QLabel" name="RedCar">
+    <property name="geometry">
+     <rect>
+      <x>40</x>
+      <y>580</y>
+      <width>49</width>
+      <height>49</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="pixmap">
+     <pixmap resource="../../pic/res.qrc">:/res/RedCar.png</pixmap>
+    </property>
+   </widget>
+   <widget class="QLabel" name="RedGen">
+    <property name="geometry">
+     <rect>
+      <x>300</x>
+      <y>580</y>
+      <width>49</width>
+      <height>49</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="pixmap">
+     <pixmap resource="../../pic/res.qrc">:/res/RedGen.png</pixmap>
+    </property>
+   </widget>
+   <widget class="QLabel" name="RedServant">
+    <property name="geometry">
+     <rect>
+      <x>230</x>
+      <y>580</y>
+      <width>49</width>
+      <height>49</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="pixmap">
+     <pixmap resource="../../pic/res.qrc">:/res/RedServant.png</pixmap>
+    </property>
+   </widget>
+   <widget class="QLabel" name="RedHorse">
+    <property name="geometry">
+     <rect>
+      <x>100</x>
+      <y>580</y>
+      <width>49</width>
+      <height>49</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="pixmap">
+     <pixmap resource="../../pic/res.qrc">:/res/RedHorse.png</pixmap>
+    </property>
+   </widget>
+   <widget class="QLabel" name="BlackHorse_2">
+    <property name="geometry">
+     <rect>
+      <x>480</x>
+      <y>0</y>
+      <width>49</width>
+      <height>49</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="pixmap">
+     <pixmap resource="../../pic/res.qrc">:/res/BlackHorse.png</pixmap>
+    </property>
+   </widget>
+   <widget class="QLabel" name="BlackServant_2">
+    <property name="geometry">
+     <rect>
+      <x>360</x>
+      <y>10</y>
+      <width>49</width>
+      <height>49</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="pixmap">
+     <pixmap resource="../../pic/res.qrc">:/res/BlackServant.png</pixmap>
+    </property>
+   </widget>
+   <widget class="QLabel" name="BlackAdvisor_2">
+    <property name="geometry">
+     <rect>
+      <x>410</x>
+      <y>0</y>
+      <width>49</width>
+      <height>49</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="pixmap">
+     <pixmap resource="../../pic/res.qrc">:/res/BlackAdvisor.png</pixmap>
+    </property>
+   </widget>
+   <widget class="QLabel" name="BlackCannon_2">
+    <property name="geometry">
+     <rect>
+      <x>470</x>
+      <y>140</y>
+      <width>49</width>
+      <height>49</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="pixmap">
+     <pixmap resource="../../pic/res.qrc">:/res/BlackCannon.png</pixmap>
+    </property>
+   </widget>
+   <widget class="QLabel" name="BlackCar_2">
+    <property name="geometry">
+     <rect>
+      <x>540</x>
+      <y>10</y>
+      <width>49</width>
+      <height>49</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="pixmap">
+     <pixmap resource="../../pic/res.qrc">:/res/BlackCar.png</pixmap>
+    </property>
+   </widget>
+   <widget class="QLabel" name="BlackSoldier_2">
+    <property name="geometry">
+     <rect>
+      <x>550</x>
+      <y>210</y>
+      <width>49</width>
+      <height>49</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="pixmap">
+     <pixmap resource="../../pic/res.qrc">:/res/BlackSodier.png</pixmap>
+    </property>
+   </widget>
+   <widget class="QLabel" name="BlackSoldier_3">
+    <property name="geometry">
+     <rect>
+      <x>420</x>
+      <y>200</y>
+      <width>49</width>
+      <height>49</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="pixmap">
+     <pixmap resource="../../pic/res.qrc">:/res/BlackSodier.png</pixmap>
+    </property>
+   </widget>
+   <widget class="QLabel" name="BlackSoldier_4">
+    <property name="geometry">
+     <rect>
+      <x>40</x>
+      <y>190</y>
+      <width>49</width>
+      <height>49</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="pixmap">
+     <pixmap resource="../../pic/res.qrc">:/res/BlackSodier.png</pixmap>
+    </property>
+   </widget>
+   <widget class="QLabel" name="BlackSoldier_5">
+    <property name="geometry">
+     <rect>
+      <x>300</x>
+      <y>200</y>
+      <width>49</width>
+      <height>49</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="pixmap">
+     <pixmap resource="../../pic/res.qrc">:/res/BlackSodier.png</pixmap>
+    </property>
+   </widget>
+   <widget class="QLabel" name="RedAdvisor_2">
+    <property name="geometry">
+     <rect>
+      <x>420</x>
+      <y>580</y>
+      <width>49</width>
+      <height>49</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="pixmap">
+     <pixmap resource="../../pic/res.qrc">:/res/RedAdvisor.png</pixmap>
+    </property>
+   </widget>
+   <widget class="QLabel" name="RedCar_2">
+    <property name="geometry">
+     <rect>
+      <x>540</x>
+      <y>590</y>
+      <width>49</width>
+      <height>49</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="pixmap">
+     <pixmap resource="../../pic/res.qrc">:/res/RedCar.png</pixmap>
+    </property>
+   </widget>
+   <widget class="QLabel" name="RedCannon_2">
+    <property name="geometry">
+     <rect>
+      <x>480</x>
+      <y>440</y>
+      <width>49</width>
+      <height>49</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="pixmap">
+     <pixmap resource="../../pic/res.qrc">:/res/RedCannon.png</pixmap>
+    </property>
+   </widget>
+   <widget class="QLabel" name="RedServant_2">
+    <property name="geometry">
+     <rect>
+      <x>350</x>
+      <y>580</y>
+      <width>49</width>
+      <height>49</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="pixmap">
+     <pixmap resource="../../pic/res.qrc">:/res/RedServant.png</pixmap>
+    </property>
+   </widget>
+   <widget class="QLabel" name="RedHorse_2">
+    <property name="geometry">
+     <rect>
+      <x>490</x>
+      <y>580</y>
+      <width>49</width>
+      <height>49</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="pixmap">
+     <pixmap resource="../../pic/res.qrc">:/res/RedHorse.png</pixmap>
+    </property>
+   </widget>
+   <widget class="QLabel" name="RedSoldier_2">
+    <property name="geometry">
+     <rect>
+      <x>540</x>
+      <y>400</y>
+      <width>49</width>
+      <height>49</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="pixmap">
+     <pixmap resource="../../pic/res.qrc">:/res/RedSodier.png</pixmap>
+    </property>
+   </widget>
+   <widget class="QLabel" name="RedSoldier_3">
+    <property name="geometry">
+     <rect>
+      <x>420</x>
+      <y>400</y>
+      <width>49</width>
+      <height>49</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="pixmap">
+     <pixmap resource="../../pic/res.qrc">:/res/RedSodier.png</pixmap>
+    </property>
+   </widget>
+   <widget class="QLabel" name="RedSoldier_4">
+    <property name="geometry">
+     <rect>
+      <x>50</x>
+      <y>390</y>
+      <width>49</width>
+      <height>49</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="pixmap">
+     <pixmap resource="../../pic/res.qrc">:/res/RedSodier.png</pixmap>
+    </property>
+   </widget>
+   <widget class="QLabel" name="RedSoldier_5">
+    <property name="geometry">
+     <rect>
+      <x>300</x>
+      <y>390</y>
+      <width>49</width>
+      <height>49</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="pixmap">
+     <pixmap resource="../../pic/res.qrc">:/res/RedSodier.png</pixmap>
+    </property>
+   </widget>
+   <widget class="QLabel" name="chosen">
+    <property name="geometry">
+     <rect>
+      <x>-9999</x>
+      <y>-9999</y>
+      <width>55</width>
+      <height>55</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="pixmap">
+     <pixmap resource="../../pic/res.qrc">:/res/chosen50.png</pixmap>
+    </property>
+   </widget>
+   <widget class="QLabel" name="blue1">
+    <property name="geometry">
+     <rect>
+      <x>-9999</x>
+      <y>-9999</y>
+      <width>50</width>
+      <height>50</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="pixmap">
+     <pixmap resource="../../pic/res.qrc">:/res/chosenBlue.png</pixmap>
+    </property>
+   </widget>
+   <widget class="QLabel" name="blue2">
+    <property name="geometry">
+     <rect>
+      <x>-9999</x>
+      <y>-9999</y>
+      <width>50</width>
+      <height>50</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="pixmap">
+     <pixmap resource="../../pic/res.qrc">:/res/chosenBlue.png</pixmap>
+    </property>
+   </widget>
+  </widget>
+  <widget class="QMenuBar" name="menuBar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>640</width>
+     <height>23</height>
+    </rect>
+   </property>
+   <widget class="QMenu" name="menu">
+    <property name="title">
+     <string>游戏</string>
+    </property>
+    <addaction name="actionRestart"/>
+    <addaction name="actionRegret"/>
+    <addaction name="actionNew"/>
+    <addaction name="actionExit"/>
+   </widget>
+   <widget class="QMenu" name="menu_2">
+    <property name="title">
+     <string>帮助</string>
+    </property>
+    <addaction name="actionHelp"/>
+    <addaction name="actionAbout"/>
+   </widget>
+   <widget class="QMenu" name="menu_3">
+    <property name="title">
+     <string>音乐</string>
+    </property>
+    <addaction name="actionMusicPlayer"/>
+   </widget>
+   <addaction name="menu"/>
+   <addaction name="menu_2"/>
+   <addaction name="menu_3"/>
+  </widget>
+  <widget class="QStatusBar" name="statusBar"/>
+  <action name="actionRestart">
+   <property name="text">
+    <string>Restart</string>
+   </property>
+  </action>
+  <action name="actionRegret">
+   <property name="text">
+    <string>Regret</string>
+   </property>
+   <property name="shortcut">
+    <string>Ctrl+Z</string>
+   </property>
+  </action>
+  <action name="actionNew">
+   <property name="text">
+    <string>New Game</string>
+   </property>
+  </action>
+  <action name="actionHelp">
+   <property name="text">
+    <string>Help</string>
+   </property>
+  </action>
+  <action name="actionAbout">
+   <property name="text">
+    <string>About</string>
+   </property>
+  </action>
+  <action name="actionExit">
+   <property name="text">
+    <string>Exit</string>
+   </property>
+  </action>
+  <action name="actionMusicPlayer">
+   <property name="text">
+    <string>MusicPlayer</string>
+   </property>
+  </action>
+ </widget>
+ <layoutdefault spacing="6" margin="11"/>
+ <resources>
+  <include location="../../pic/res.qrc"/>
+ </resources>
+ <connections/>
+</ui>

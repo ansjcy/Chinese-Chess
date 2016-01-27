@@ -1,0 +1,29 @@
+<RCC>
+    <qresource prefix="/res">
+        <file>BlackAdvisor.png</file>
+        <file>BlackCannon.png</file>
+        <file>BlackCar.png</file>
+        <file>BlackGen.png</file>
+        <file>BlackHorse.png</file>
+        <file>BlackServant.png</file>
+        <file>BlackSodier.png</file>
+        <file>ChessBoard640.jpg</file>
+        <file>ChessBoard1625.jpg</file>
+        <file>RedAdvisor.png</file>
+        <file>RedCannon.png</file>
+        <file>RedCar.png</file>
+        <file>RedGen.png</file>
+        <file>RedHorse.png</file>
+        <file>RedServant.png</file>
+        <file>RedSodier.png</file>
+        <file>WelcomeBackground.jpg</file>
+        <file>chosen50.png</file>
+        <file>chosenBlue.png</file>
+        <file>mode.ico</file>
+        <file>next.ico</file>
+        <file>open.ico</file>
+        <file>pause.ico</file>
+        <file>play.ico</file>
+        <file>previous.ico</file>
+    </qresource>
+</RCC>
